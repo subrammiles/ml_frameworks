@@ -48,7 +48,12 @@ Explore the existing scripts in `matplotlib/`, then try:
 
 ### 4. Statistics foundations
 
-The `Statistics/mean_median_mode/` folder introduces mean, median, and mode. Try changing the sample values and predicting the result before running each script.
+Start with `Statistics/mean_median_mode/` for mean, median, and mode. Continue with:
+
+- `Statistics/descriptive_stats.py` — mean, median, range, and standard deviation; compare sample and population formulas.
+- `Statistics/percentiles_outliers.py` — quartiles, IQR, and a common outlier flagging rule.
+- `Statistics/probability.py` — compare a simulated probability with its theoretical value.
+- `Statistics/correlation.py` — calculate a correlation matrix and discuss what correlation can and cannot tell you.
 
 ### 5. Interview practice
 

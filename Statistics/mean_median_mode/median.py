@@ -6,4 +6,4 @@ import numpy
 marksOfAllStudents = [45, 92, 36, 49, 62, 46, 82, 72, 91, 66]
 marksOfAllStudents.sort()
 x = numpy.median(marksOfAllStudents)
-print(x) // 64.0
+print(x)  # 64.0
