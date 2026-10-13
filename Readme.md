@@ -50,6 +50,18 @@ Explore the existing scripts in `matplotlib/`, then try:
 
 The `Statistics/mean_median_mode/` folder introduces mean, median, and mode. Try changing the sample values and predicting the result before running each script.
 
+### 5. Interview practice
+
+These examples show common array and table problems, with follow-up questions in comments:
+
+- `numpy/interview_standardize.py` — vectorized column-wise z-scores and the constant-column edge case.
+- `numpy/interview_top_k.py` — select the largest values with `argpartition`.
+- `pandas/interview_deduplicate.py` — keep the latest record per user and define a tie-breaker.
+- `pandas/interview_group_rank.py` — rank values within groups and handle ties at the cutoff.
+- `pandas/interview_rolling.py` — calculate time-based rolling totals within each group.
+
+For interview practice, read the prompt in each file, hide or rewrite the solution, and solve it yourself. Then explain the edge cases and trade-offs out loud. Run the example afterward to compare results.
+
 ## Going from beginner to advanced
 
 For every example, first run it unchanged, then change the input values and explain the output. Next, combine ideas: load or create data, clean it with pandas, calculate summaries with NumPy/pandas, and visualize those summaries with Matplotlib. Advanced practice ideas include reading a CSV file, comparing groups, handling dates, annotating a chart, and turning repeated steps into functions.
